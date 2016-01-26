@@ -14,6 +14,18 @@
 		BF58C53D1C44A28200D6657E /* BackgroundModelDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF58C53B1C44A28200D6657E /* BackgroundModelDemo.xcdatamodeld */; };
 		BF58C53F1C44A28200D6657E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF58C53E1C44A28200D6657E /* Assets.xcassets */; };
 		BF58C5421C44A28200D6657E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF58C5401C44A28200D6657E /* LaunchScreen.storyboard */; };
+		BF58C54B1C44A2C500D6657E /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C54A1C44A2C500D6657E /* Store.m */; };
+		BF58C5501C44A86400D6657E /* DataOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C54F1C44A86400D6657E /* DataOperationController.m */; };
+		BF58C5531C44A8E100D6657E /* DataDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C5521C44A8E100D6657E /* DataDownloadOperation.m */; };
+		BF58C55C1C44F8E100D6657E /* DataLoadLocalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C55B1C44F8E100D6657E /* DataLoadLocalOperation.m */; };
+		BF58C55F1C44F92500D6657E /* DataSaveToLocalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C55E1C44F92500D6657E /* DataSaveToLocalOperation.m */; };
+		BF58C5621C44F95000D6657E /* UpdateUserInterfaceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C5611C44F95000D6657E /* UpdateUserInterfaceOperation.m */; };
+		BF58C5681C46396100D6657E /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C5661C46396100D6657E /* DemoTableViewController.m */; };
+		BF58C56C1C463AEF00D6657E /* DemoTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C56B1C463AEF00D6657E /* DemoTableViewDataSource.m */; };
+		BF58C56F1C46400200D6657E /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C56E1C46400200D6657E /* DemoTableViewCell.m */; };
+		BF58C57D1C47999D00D6657E /* DataCreateItemOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF58C57C1C47999D00D6657E /* DataCreateItemOperation.m */; };
+		BFA358B51C4897C700DEBC8F /* StringItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA358B21C4897C700DEBC8F /* StringItem+CoreDataProperties.m */; };
+		BFA358B61C4897C700DEBC8F /* StringItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA358B41C4897C700DEBC8F /* StringItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,32 @@
 		BF58C53E1C44A28200D6657E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF58C5411C44A28200D6657E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF58C5431C44A28200D6657E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF58C5491C44A2C500D6657E /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		BF58C54A1C44A2C500D6657E /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		BF58C54E1C44A86400D6657E /* DataOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataOperationController.h; sourceTree = "<group>"; };
+		BF58C54F1C44A86400D6657E /* DataOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataOperationController.m; sourceTree = "<group>"; };
+		BF58C5511C44A8E100D6657E /* DataDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDownloadOperation.h; sourceTree = "<group>"; };
+		BF58C5521C44A8E100D6657E /* DataDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataDownloadOperation.m; sourceTree = "<group>"; };
+		BF58C55A1C44F8E100D6657E /* DataLoadLocalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoadLocalOperation.h; sourceTree = "<group>"; };
+		BF58C55B1C44F8E100D6657E /* DataLoadLocalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLoadLocalOperation.m; sourceTree = "<group>"; };
+		BF58C55D1C44F92500D6657E /* DataSaveToLocalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSaveToLocalOperation.h; sourceTree = "<group>"; };
+		BF58C55E1C44F92500D6657E /* DataSaveToLocalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSaveToLocalOperation.m; sourceTree = "<group>"; };
+		BF58C5601C44F95000D6657E /* UpdateUserInterfaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateUserInterfaceOperation.h; sourceTree = "<group>"; };
+		BF58C5611C44F95000D6657E /* UpdateUserInterfaceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateUserInterfaceOperation.m; sourceTree = "<group>"; };
+		BF58C5651C46396100D6657E /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		BF58C5661C46396100D6657E /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		BF58C56A1C463AEF00D6657E /* DemoTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewDataSource.h; sourceTree = "<group>"; };
+		BF58C56B1C463AEF00D6657E /* DemoTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewDataSource.m; sourceTree = "<group>"; };
+		BF58C56D1C46400200D6657E /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		BF58C56E1C46400200D6657E /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		BF58C5701C46475500D6657E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF58C57A1C474F2F00D6657E /* BackgroundModelDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BackgroundModelDemo.entitlements; sourceTree = "<group>"; };
+		BF58C57B1C47999D00D6657E /* DataCreateItemOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCreateItemOperation.h; sourceTree = "<group>"; };
+		BF58C57C1C47999D00D6657E /* DataCreateItemOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCreateItemOperation.m; sourceTree = "<group>"; };
+		BFA358B11C4897C700DEBC8F /* StringItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StringItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BFA358B21C4897C700DEBC8F /* StringItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StringItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BFA358B31C4897C700DEBC8F /* StringItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringItem.h; sourceTree = "<group>"; };
+		BFA358B41C4897C700DEBC8F /* StringItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 		BF58C52E1C44A28200D6657E /* BackgroundModelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF58C57A1C474F2F00D6657E /* BackgroundModelDemo.entitlements */,
 				BF58C5321C44A28200D6657E /* AppDelegate.h */,
 				BF58C5331C44A28200D6657E /* AppDelegate.m */,
 				BF58C5351C44A28200D6657E /* ViewController.h */,
@@ -70,6 +109,10 @@
 				BF58C5431C44A28200D6657E /* Info.plist */,
 				BF58C53B1C44A28200D6657E /* BackgroundModelDemo.xcdatamodeld */,
 				BF58C52F1C44A28200D6657E /* Supporting Files */,
+				BF58C5631C46392600D6657E /* UserInterface */,
+				BF58C54D1C44A81700D6657E /* Operation */,
+				BF58C54C1C44A80B00D6657E /* Data Model */,
+				BF58C5701C46475500D6657E /* PrefixHeader.pch */,
 			);
 			path = BackgroundModelDemo;
 			sourceTree = "<group>";
@@ -80,6 +123,51 @@
 				BF58C5301C44A28200D6657E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF58C54C1C44A80B00D6657E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF58C5491C44A2C500D6657E /* Store.h */,
+				BF58C54A1C44A2C500D6657E /* Store.m */,
+				BFA358B11C4897C700DEBC8F /* StringItem+CoreDataProperties.h */,
+				BFA358B21C4897C700DEBC8F /* StringItem+CoreDataProperties.m */,
+				BFA358B31C4897C700DEBC8F /* StringItem.h */,
+				BFA358B41C4897C700DEBC8F /* StringItem.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		BF58C54D1C44A81700D6657E /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				BF58C54E1C44A86400D6657E /* DataOperationController.h */,
+				BF58C54F1C44A86400D6657E /* DataOperationController.m */,
+				BF58C57B1C47999D00D6657E /* DataCreateItemOperation.h */,
+				BF58C57C1C47999D00D6657E /* DataCreateItemOperation.m */,
+				BF58C5511C44A8E100D6657E /* DataDownloadOperation.h */,
+				BF58C5521C44A8E100D6657E /* DataDownloadOperation.m */,
+				BF58C55A1C44F8E100D6657E /* DataLoadLocalOperation.h */,
+				BF58C55B1C44F8E100D6657E /* DataLoadLocalOperation.m */,
+				BF58C55D1C44F92500D6657E /* DataSaveToLocalOperation.h */,
+				BF58C55E1C44F92500D6657E /* DataSaveToLocalOperation.m */,
+				BF58C5601C44F95000D6657E /* UpdateUserInterfaceOperation.h */,
+				BF58C5611C44F95000D6657E /* UpdateUserInterfaceOperation.m */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		BF58C5631C46392600D6657E /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				BF58C5651C46396100D6657E /* DemoTableViewController.h */,
+				BF58C5661C46396100D6657E /* DemoTableViewController.m */,
+				BF58C56D1C46400200D6657E /* DemoTableViewCell.h */,
+				BF58C56E1C46400200D6657E /* DemoTableViewCell.m */,
+				BF58C56A1C463AEF00D6657E /* DemoTableViewDataSource.h */,
+				BF58C56B1C463AEF00D6657E /* DemoTableViewDataSource.m */,
+			);
+			name = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +201,12 @@
 				TargetAttributes = {
 					BF58C52B1C44A28200D6657E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LKY3A48S4Y;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -153,9 +247,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF58C53D1C44A28200D6657E /* BackgroundModelDemo.xcdatamodeld in Sources */,
+				BFA358B51C4897C700DEBC8F /* StringItem+CoreDataProperties.m in Sources */,
+				BF58C55C1C44F8E100D6657E /* DataLoadLocalOperation.m in Sources */,
+				BF58C57D1C47999D00D6657E /* DataCreateItemOperation.m in Sources */,
+				BF58C5501C44A86400D6657E /* DataOperationController.m in Sources */,
 				BF58C5371C44A28200D6657E /* ViewController.m in Sources */,
+				BF58C5681C46396100D6657E /* DemoTableViewController.m in Sources */,
 				BF58C5341C44A28200D6657E /* AppDelegate.m in Sources */,
+				BF58C5621C44F95000D6657E /* UpdateUserInterfaceOperation.m in Sources */,
+				BF58C56C1C463AEF00D6657E /* DemoTableViewDataSource.m in Sources */,
+				BF58C56F1C46400200D6657E /* DemoTableViewCell.m in Sources */,
+				BF58C54B1C44A2C500D6657E /* Store.m in Sources */,
+				BF58C55F1C44F92500D6657E /* DataSaveToLocalOperation.m in Sources */,
+				BFA358B61C4897C700DEBC8F /* StringItem.m in Sources */,
 				BF58C5311C44A28200D6657E /* main.m in Sources */,
+				BF58C5531C44A8E100D6657E /* DataDownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +373,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BackgroundModelDemo/BackgroundModelDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = BackgroundModelDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = BackgroundModelDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VincentJiang.BackgroundModelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -278,10 +389,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BackgroundModelDemo/BackgroundModelDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = BackgroundModelDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = BackgroundModelDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VincentJiang.BackgroundModelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -304,6 +420,7 @@
 				BF58C5481C44A28200D6657E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
