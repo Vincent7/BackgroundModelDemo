@@ -23,8 +23,8 @@
 @implementation DemoTableViewDataSource
 
 -(NSMutableArray *)arrDataSourceStringPath{
-    NSArray *arrTemp = [NSArray array];
-    arrTemp = @[@"https://drscdn.500px.org/photo/136077281/m%3D1170/9ebe793a1526a9d6edcea3734cdca284",
+    NSArray *arrTemp =
+            @[@"https://drscdn.500px.org/photo/136077281/m%3D1170/9ebe793a1526a9d6edcea3734cdca284",
                 @"https://drscdn.500px.org/photo/135840469/m%3D1170/8cb58219289319a6f0305ba16c788315",
                 @"https://drscdn.500px.org/photo/135092085/m%3D1170/6430a0896ee222da82353092cd8661fa",
                 @"https://drscdn.500px.org/photo/134816909/m%3D1170/a138f9cccc6eed08fe10604fdc8502ca",

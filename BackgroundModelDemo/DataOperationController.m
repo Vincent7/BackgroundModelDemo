@@ -66,7 +66,13 @@
         DataDownloadOperation *op = [self findDownloadOperationWithUrl:url];
         if ((op && op.isExecuting) || stringItem.fileData != nil) {
             //已经执行了下载任务
-            NSLog(@"ItemIndex at:%@ is downloading",@(itemIndex));
+            if ((op && op.isExecuting)) {
+                NSLog(@"ItemIndex at:%@ is downloading",@(itemIndex));
+            }
+            
+            if (stringItem.fileData != nil) {
+                NSLog(@"ItemIndex at:%@ has been downloaded",@(itemIndex));
+            }
         }else{
             DataDownloadOperation *downLoadOperation = [[DataDownloadOperation alloc]initWithURL:url andStore:self.store];
             //        [downLoadOperation addDependency:createOperation];

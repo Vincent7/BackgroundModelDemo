@@ -32,7 +32,7 @@
         
         [textCell.progress setHidden:stringItem.fileData];
         [textCell.downloadImageView setImage:[UIImage imageWithData:stringItem.fileData]];
-        [textCell.downloadImageView setContentMode:UIViewContentModeScaleAspectFit];
+//        [textCell.downloadImageView setContentMode:UIViewContentModeScaleAspectFit];
     }];
     self.tableView.dataSource = self.dataSource;
     self.tableView.delegate = self;
@@ -40,11 +40,9 @@
     for (int i = 0; i < 19; i++) {
         [self.dataSource initTableWithEmptyDataWithIndexPath:[NSIndexPath indexPathForRow:i inSection:0]];
     }
-    
-    
-    
     // Do any additional setup after loading the view from its nib.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -52,6 +50,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self.dataSource downLoadDataWithIndexPath:indexPath];
     //设置Cell的属性
 //    [self.dataSource downLoadDataWithIndexPath:indexPath];
 }
